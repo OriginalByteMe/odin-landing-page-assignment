@@ -28,12 +28,12 @@ footer{
     width: 100%;
     padding: 0;
     padding-top: 8px;
-    /* position: fixed;
-    bottom:0; */
+    text-align: center;
     margin-top:auto;
 }
 .container.info-section, .container.signup-section{
     background-color: #FFFFFF;
+    justify-content: center;
 }
 .container.quote-section{
     background-color: #E5E7EB;
@@ -49,6 +49,16 @@ footer{
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
+}
+
+#signup-header{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#signup-text{
+    font-size: 12px;
+    
 }
 
 #info-images-container{
@@ -71,7 +81,7 @@ a{
 #hero-header{
     margin-bottom: 0px;
     padding: 0;
-    font-size: 48px;
+    font-size: 24px;
     font-weight: bold;
     color: #F9FAF8; 
 }
@@ -97,6 +107,7 @@ a{
 
 .image-placeholder-text{
     font-size: 18px;
+    text-align: center;
 }
 
 
@@ -140,6 +151,8 @@ button{
     color:#FFFFFF;
     border-radius: 4px;
     padding: 4px;
+    outline: inherit;
+    border: none;
 }
 
 #hero-image{
@@ -172,15 +185,23 @@ button{
     flex-direction: column;
     justify-content: center;
     height: 100px;
-    width: 350px;
+    width: 100%;
     background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.signup-box button{
+    border-color: #FFFFFF;
+    color:#FFFFFF;
+    padding: 0;
+    border-width:2px;
+    border-style: solid;
 }
 
 .signup-box.left-items, .signup-box.right-items{
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    
+    flex-direction: column;
+    flex:1;
+    gap:16px;
 }
 
 
