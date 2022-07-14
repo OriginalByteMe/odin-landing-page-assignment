@@ -33,7 +33,7 @@ footer{
 }
 .container.info-section, .container.signup-section{
     background-color: #FFFFFF;
-    justify-content: center;
+    /* justify-content: center; */
 }
 .container.quote-section{
     background-color: #E5E7EB;
@@ -96,7 +96,6 @@ a{
 }
 .image-placeholder{
     height:150px;
-    /* width: 100px; */
     justify-content: center;
     align-items: center;
     border-color: #3882F6;
@@ -181,13 +180,13 @@ button{
 }
 
 .signup-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
+    /* justify-content: center; */
     height: 100px;
     width: 100%;
     background-color: #3882F6;
     border-radius: 8px;
+    color: white;
 }
 
 .signup-box button{
@@ -198,7 +197,7 @@ button{
     border-style: solid;
 }
 
-.signup-box.left-items, .signup-box.right-items{
+.signup.left-items, .signup.right-items{
     flex-direction: column;
     flex:1;
     gap:16px;
